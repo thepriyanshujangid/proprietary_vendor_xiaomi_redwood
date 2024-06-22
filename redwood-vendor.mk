@@ -637,6 +637,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@2.0.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.0.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.1.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib/vndk/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libxlog.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom.so \
