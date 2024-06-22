@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/arcsat_2sat.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arcsat_2sat.bin \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/arcsat_2sat_first.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arcsat_2sat_first.bin \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/arcsat_2sat_second.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arcsat_2sat_second.bin \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/camera/beautyLens/dualcam_beauty_effect_pre_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beautyLens/dualcam_beauty_effect_pre_config.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/beauty_style_blue.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_blue.cng \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/beauty_style_masculine.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_masculine.cng \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/beauty_style_neutral.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_neutral.cng \
@@ -319,6 +320,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/power_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_ak991x_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_bmi3x0_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_bmi3x0_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_default_sensors.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_dynamic_sensors.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_irq.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_lsm6dso_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_power_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_stk3a5x_0.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sm7350_sx933x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm7350_sx933x_0.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/xiaomi/redwood/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -975,6 +985,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libmiStereoFactoryRemapBasicLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoFactoryRemapBasicLib.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmiXmlParser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiXmlParser.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmiai_portraitsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_portraitsupernight.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ai_vision.so \
@@ -1126,6 +1137,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoBokeh.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_active_ois.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_active_ois.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_dmbr.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_face_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_face_stabilizer.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_horizon_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_horizon_correction.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_ldc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_ldc.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_stabilizer.so \
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/libvidhance_super_stabilization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_super_stabilization.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
